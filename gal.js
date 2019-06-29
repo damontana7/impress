@@ -1,0 +1,1 @@
+(function($){$(document).ready(function(){$(document).bind('ready ajaxComplete',function(){$(".ds-hover-gallery .et_pb_gallery_item").each(function(){$(this).find(".et_pb_gallery_title, .et_pb_gallery_caption").wrapAll('<div class="ds-gallery-text"></div>');});});});})(jQuery);
